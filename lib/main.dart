@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:soft_record/soft_test/page/home_page.dart';
+import 'package:soft_record/soft_test/page/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: false,
       ),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
